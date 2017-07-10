@@ -1,0 +1,9 @@
+<h2>CREAAAAGSLIST</h2>
+
+
+<div *ngFor="let category of categoryArray">
+  <h4>{{category.title}}</h4>
+  <ul>
+    <li *ngFor="let subcategory of category.array"><a (click)="goToSubcategory(subcategory.search)">{{subcategory.title}}</a></li>
+  </ul>
+</div>

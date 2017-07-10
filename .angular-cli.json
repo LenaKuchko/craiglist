@@ -11,6 +11,10 @@
         "assets",
         "favicon.ico"
       ],
+      "styles": [
+        "styles.css",
+        "../bower_components/bootstrap/dist/css/bootstrap.css"
+      ],
       "index": "index.html",
       "main": "main.ts",
       "polyfills": "polyfills.ts",
